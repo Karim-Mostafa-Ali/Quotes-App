@@ -1,0 +1,51 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto Mono', monospace; */
+#home {
+    background-color: #161A30;
+}
+body {
+    color: #F0ECE5;
+
+}
+h1 {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+
+#home .press{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+#home button{
+    color:#161A30;
+    background-color:#F0ECE5;
+    border: 2px solid #31304D;
+    transition: all 0.5s;
+}
+
+#home button:hover{
+    color:#F0ECE5;
+    background-color:#31304D;
+    border-color:#F0ECE5;
+}
+
+#home h2 ,h3 {
+    font-size: 2rem;
+    font-family: 'Lato', sans-serif ;
+}
+
+#home h3 {
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 576px){
+    html { font-size: 10px; }
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px){
+    html { font-size: 12px; }
+}
